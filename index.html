@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            position: relative;
+            font-family: Helvetica, sans-serif;
+            background: black;
+            position: relative;
+            color: #ccc;
+        }
+
+        header{
+            font-weight: normal;
+            font-size: 4.5rem;
+            width: 100vw;
+            text-align: center;
+        }
+        #buttons{
+
+
+        }
+
+        .option{
+
+            color: #ccc;
+            background-color: #222;
+            min-width: 250px;
+            max-width: 250px;
+            font-size: 3rem;
+            text-align: center;
+            padding: 20px 0;
+            margin: 50px 15px;
+            display: block;
+            border: none;
+            border-radius: 6px;
+        }
+
+        #display{
+            
+            font-size: 5em;
+            position: fixed;
+            font-weight: bold;
+            width: 100vw;
+            text-align: center;
+            top: 42vh;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>Chords & Scales Randomizer</header>
+        <div id = "buttons">
+            
+            <input type = "button" class = "option" value = "Scales" ></input>
+            <input type = "button" class = "option" value= "Chords"></input>
+            <span class = "option"> Speed
+            <input type="range" min="400" max="10000" value="100"></span>
+        <div>
+        <div id = "display"> Choose something</div>
+
+    <script src="main.js"></script>
+</body>
+</html>
